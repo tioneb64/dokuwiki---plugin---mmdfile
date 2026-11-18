@@ -1,0 +1,7 @@
+base   mmdfile
+author Benoit
+email  benoit.thibaudeau64@gmail.com
+date   2026-11-17
+name   Mmdfile (diagrammes .mmd / .mermaid)
+desc   Ouvre, affiche (diagramme via Kroki) et modifie les fichiers .mmd et .mermaid du gestionnaire de médias. Nécessite les plugins mdfile et kroki.
+url    https://www.dokuwiki.org/plugins
