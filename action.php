@@ -4,6 +4,10 @@
  * Mmdfile : même vue et même éditeur que « mdfile », pour les diagrammes Mermaid (.mmd, .mermaid).
  * Le diagramme est dessiné par le plugin Kroki (balise <mermaid>).
  */
+
+// la classe parente n'est pas toujours chargée avant celle-ci (appels ajax) : on la charge explicitement
+require_once DOKU_PLUGIN . 'mdfile/action.php';
+
 class action_plugin_mmdfile extends action_plugin_mdfile
 {
     protected $act = 'mmdfile';
